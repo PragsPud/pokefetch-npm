@@ -1,5 +1,5 @@
 {
-  "name": "@pragspud/poke-simple",
+  "name": "poke-simple",
   "version": "1.0.0",
   "description": "Simple Pokémon data client for JavaScript and Node.js",
   "type": "module",
