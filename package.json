@@ -1,0 +1,24 @@
+{
+  "name": "@pragspud/poke-simple",
+  "version": "1.0.0",
+  "description": "Simple Pokémon data client for JavaScript and Node.js",
+  "type": "module",
+  "main": "src/index.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+      "test": "vitest"
+  },
+  "keywords": [
+    "pokemon",
+    "pokeapi",
+    "pokemon-api",
+    "nodejs"
+  ],
+  "author": "PragsPud",
+  "license": "MIT",
+  "devDependencies": {
+    "vitest": "^4.1.9"
+  }
+}
