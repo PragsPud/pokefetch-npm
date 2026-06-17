@@ -8,7 +8,7 @@ import {
 } from "../src/index.js";
 
 
-describe("poke-simple package", () => {
+describe("poke-fetch package", () => {
 
   test("exports all public functions", () => {
     expect(getPokemon).toBeTypeOf("function");
