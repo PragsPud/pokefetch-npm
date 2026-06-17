@@ -1,4 +1,4 @@
-# poke-simple
+# poke-fetch
 
 Simple Pokémon data client for JavaScript and Node.js.
 
@@ -17,7 +17,7 @@ Fetch Pokémon, species, and type information with a clean and easy-to-use API.
 ## Quick Start
 
 ```js
-import { getPokemon } from "poke-simple";
+import { getPokemon } from "poke-fetch";
 
 const pokemon = await getPokemon("pikachu");
 
@@ -45,7 +45,7 @@ Output:
 Get Pokémon information by name or Pokédex ID.
 
 ```js
-import { getPokemon } from "poke-simple";
+import { getPokemon } from "poke-fetch";
 
 const charizard = await getPokemon("charizard");
 const pikachu = await getPokemon(25);
@@ -56,7 +56,7 @@ const pikachu = await getPokemon(25);
 Get species information.
 
 ```js
-import { getSpecies } from "poke-simple";
+import { getSpecies } from "poke-fetch";
 
 const species = await getSpecies("charizard");
 
@@ -81,7 +81,7 @@ Returns:
 Get Pokémon type information.
 
 ```js
-import { getType } from "poke-simple";
+import { getType } from "poke-fetch";
 
 const fire = await getType("fire");
 
@@ -93,7 +93,7 @@ console.log(fire);
 Search Pokémon with pagination.
 
 ```js
-import { search } from "poke-simple";
+import { search } from "poke-fetch";
 
 const pokemon = await search(10, 0);
 
@@ -117,7 +117,7 @@ try {
 ## Example
 
 ```js
-import { getPokemon } from "poke-simple";
+import { getPokemon } from "poke-fetch";
 
 const pokemon = await getPokemon("bulbasaur");
 
