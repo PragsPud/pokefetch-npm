@@ -1,5 +1,5 @@
 {
-  "name": "poke-fetch",
+  "name": "pokefetch",
   "version": "1.0.0",
   "description": "Simple Pokémon data client for JavaScript and Node.js",
   "type": "module",
